@@ -1,0 +1,48 @@
+#camada1{
+            position: absolute;/*Componente absoluto que está sobreposto à página*/
+            width: 150px;
+            height: 100px;
+            background-color: aqua;
+            border: 5px solid #00F;
+            text-align: center;
+            top:200px;
+            left: 200px;
+            z-index: 1;
+        } /*Em um id se coloca # para crir um estilo proprio*/
+
+        #camada2{
+            position: absolute;
+            width: 250px;
+            height: 200px;
+            background-color: rgb(255, 255, 0);
+            border: 5px solid rgb(255, 170, 0);
+            text-align: center;
+            top:250px; /*Posição à partir do topo da página*/
+            left: 250px; /*Posição à partir da esquerda da página*/
+            z-index: 2; /*Colocar qual div você quer que fique em cima e em baixo*/
+        }
+
+        #camada3{
+            position: absolute;
+            width: 200px;
+            height: 150px;
+            background-color: rgb(0, 255, 4);
+            border: 5px solid rgb(29, 129, 1);
+            text-align: center;
+            top:350px; 
+            left: 350px; 
+            z-index: 3;
+        }
+
+        #camada4{
+            position: absolute;
+            top:450px; 
+            left: 450px; 
+            z-index: 4;
+        }
+
+        #camada4 img{
+            width: 200px;
+            height: 200px;
+
+        }

@@ -1,0 +1,157 @@
+body{
+    background-color: rgb(219, 215, 215);
+}
+
+#vermelhosuperior{
+    position: absolute;
+    width: 1000px;
+    height: 300px;
+    background-color: rgb(230, 98, 98) ;
+    color: rgb(230, 98, 98);
+    top: 10px;
+    left: 200px;
+    z-index: 1;
+}
+
+#barradepesquisa{
+    position: absolute;
+    width: 500px;
+    height: 50px;
+    background-color: rgb(255, 255, 255) ;
+    color:rgb(255, 255, 255) ;
+    top: 120px;
+    left: 400px;
+    z-index: 2;
+}
+
+#pesquisa{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(36, 36, 36) ;
+    color:rgb(36, 36, 36) ;
+    top: 120px;
+    left: 900px;
+    z-index: 2;
+}
+
+#quadradobranco{
+    position: absolute;
+    width: 1000px;
+    height: 700px;
+    background-color: rgb(255, 255, 255) ;
+    color: white;
+    top: 310px;
+    left: 200px;
+    z-index: 3;
+}
+
+#barranavegacao1{
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    background-color: rgb(75, 75, 75) ;
+    color: rgb(75, 75, 75);
+    top: 350px;
+    left: 350px;
+    z-index: 4;
+}
+
+#barranavegacao2{
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    background-color: rgb(75, 75, 75) ;
+    color: rgb(75, 75, 75);
+    top: 350px;
+    left: 520px;
+    z-index: 4;
+}
+
+#barranavegacao3{
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    background-color: rgb(75, 75, 75) ;
+    color: rgb(75, 75, 75);
+    top: 350px;
+    left: 690px;
+    z-index: 4;
+}
+
+#barranavegacao4{
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    background-color: rgb(75, 75, 75) ;
+    color: rgb(75, 75, 75);
+    top: 350px;
+    left: 860px;
+    z-index: 4;
+}
+
+#vermelhomeio{
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    background-color: rgb(230, 98, 98) ;
+    color: rgb(230, 98, 98);
+    top: 430px;
+    left: 270px;
+    z-index: 4;
+}
+
+#cinzameio{
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    background-color: rgb(183, 173, 173) ;
+    color:rgb(183, 173, 173) ;
+    top: 430px;
+    left: 480px;
+    z-index: 4;
+}
+
+#azulmeio{
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    background-color: rgb(67, 204, 204) ;
+    color: rgb(67, 204, 204);
+    top: 430px;
+    left: 690px;
+    z-index: 4;
+}
+
+#azulinferior{
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    background-color: rgb(67, 204, 204) ;
+    color: rgb(67, 204, 204);
+    top: 690px;
+    left: 270px;
+    z-index: 4;
+}
+
+#vermelhoinferior{
+    position: absolute;
+    width: 410px;
+    height: 250px;
+    background-color: rgb(230, 98, 98) ;
+    color: rgb(230, 98, 98);
+    top: 690px;
+    left: 480px;
+    z-index: 4;
+}
+
+#cinzadireito{
+    position: absolute;
+    width: 200px;
+    height: 510px;
+    background-color: rgb(183, 173, 173) ;
+    color: rgb(183, 173, 173);
+    top: 430px;
+    left: 900px;
+    z-index: 4;
+}
