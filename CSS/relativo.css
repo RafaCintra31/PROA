@@ -1,0 +1,60 @@
+/*  CSS RESET   */
+
+*{ /* (*) - TODO MUNDO*/
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+#fundo{
+    position: relative;
+    width: 800px;
+    height: 800px;
+    background-color: aquamarine;
+    margin: auto; /*Alinha o componente ao centro (horizontalmente*/
+    margin-top: 30px;
+}
+
+#camada1{
+    position: relative; /*relative - não da para colocar um em cima do outro*/
+    width: 300px;
+    height: 380px;
+    background-color: #ff0;
+    border: 5px solid #f00;
+    text-align: center;
+    padding: 10px; /*Tag para espaço para dentro da área*/
+    float: left;/*Tag left para ter um componente uma do lado da outra(tem que ter em todas as camadas*/
+}
+
+#camada2{
+    position: relative; 
+    width: 300px;
+    height: 380px;
+    background-color: rgb(0, 255, 21);
+    border: 5px solid rgb(28, 138, 0);
+    text-align: center;
+    padding: 10px; 
+    float: left;
+}
+
+#camada3{
+    position: relative; /*relative - serve para criar layout*/
+    width: 300px;
+    height: 380px;
+    background-color: rgb(0, 229, 255);
+    border: 5px solid rgb(0, 0, 255);
+    text-align: center;
+    padding: 10px; 
+    clear: left; /*Tag para dar uma quebra de linha*/
+}
+
+#camada_absoluta{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    top: 150px;
+    left: 200px;
+    z-index: 2;
+}

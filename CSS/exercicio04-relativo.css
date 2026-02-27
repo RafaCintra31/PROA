@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+#fundo{
+    position: relative;
+    width: 1000px;
+    height: 500px;
+    background-color: rgb(191, 193, 192);
+    margin: auto; 
+    margin-top: 30px;
+}
+
+#camada-azul{
+    position: relative;
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    text-align: center;
+    padding: 5px; 
+    float: left;
+}
+
+#camada-vermelha{
+    position: relative;
+    width: 800px;
+    height: 100px;
+    background-color: red;
+    text-align: center;
+    padding: 5px; 
+    float: left;
+}
+
+#camada-verde{
+    position: relative;
+    width: 1000px;
+    height: 50px;
+    background-color: rgb(4, 255, 4);
+    text-align: center;
+    padding: 5px; 
+    clear: left;
+}
+
+#camada-amarela{
+    position: relative;
+    width: 1000px;
+    height: 470px;
+    background-color: yellow;
+    border: 10px solid red;
+    text-align: center;
+    padding: 5px; 
+}
+
+#camada-cinza{
+    position: relative;
+    width: 1000px;
+    height: 50px;
+    background-color: gray;
+    text-align: center;
+    padding: 5px; 
+}

@@ -1,0 +1,56 @@
+/*CSS RESET*/
+
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    position: relative;
+    width: 90%;
+    height: auto;
+    background-color: bisque;
+    margin: auto;
+}
+
+#cabecalho{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background-color: aqua;
+}
+
+#menu{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(215, 226, 127);
+}
+
+#esquerda{
+    position: relative;
+    width: 30%;
+    height: 450px;
+    background-color: blueviolet;
+    float: left;
+}
+
+#direita{
+    position: relative;
+    width: 70%;
+    height: 450px;
+    background-color: rgb(21, 113, 49);
+    float: left;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color:white;
+    text-align: center;
+    clear: left;
+}
