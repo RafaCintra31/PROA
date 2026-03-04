@@ -1,0 +1,115 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+#conteiner{
+    position: relative;
+    width: 90%;
+    height: auto;
+    background-color: bisque;
+    margin: auto;
+}
+
+#cabecalho_pagina{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#meio{
+    position: relative;
+    background-color: #b5bb41;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+
+}
+#menu_lateral{
+    position: relative;
+    background-color: #CCCCAA;
+    width: 20%;
+    height: 500px;
+}
+#miolo{
+    position: relative;
+    background-color: #FFCCFF;
+    width: 60%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#cabecalho_miolo{
+    position: relative;
+    background-color: white;
+    width: 95%;
+    height: 30px;
+    color: black;
+    font-size: 20px;
+}
+
+
+#imagem{
+    position: relative;
+    background-color: #996600;
+    width: 95%;
+    height: 150px;
+}
+
+#miolo p{
+    position: relative;
+    background-color: #CCCCFF;
+    width: 95%;
+    height: 100px;
+    color: black;
+    text-align: left;
+    font-size: 20px;
+}
+
+#caixa{
+    position: relative; 
+    width: 95%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.caixinha{
+    position: relative;
+    background-color: #514e4e;
+    width: 30%;
+    height: 130px;
+}
+
+aside{
+    position: relative;
+    background-color: #ff00ff;
+    width: 20%;
+    height: 500px;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}

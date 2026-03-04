@@ -5,6 +5,13 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: verdana;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
 #fundo{
     position: relative;
     width: 90%;
@@ -16,14 +23,12 @@
 #cabecalho{
     position: relative;
     width: 100%;
-    height: 150px;
+    height: 100px;
     background-color: black;
-    color: white;
-    font-size: 50px;
-    font-family: verdana;
-    padding: 20px;
-    text-align: center;
-    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
 
 #nav-central{
@@ -31,11 +36,7 @@
     width: 100%;
     height: 40px;
     background-color: #120796;
-    color: white;
-    font-size:40px;
-    font-family: verdana;
-    text-align: justify;
-
+    text-align: left;
 }
 
 #nav-esquerda{
@@ -43,10 +44,6 @@
     width: 20%;
     height: 800px;
     background-color: #ccccaa;
-    color: white;
-    font-size: 40px;
-    font-family: Verdana;
-    text-align: center;
     float: left;
 }
 
@@ -55,10 +52,6 @@ section{
     width: 60%;
     height: 800px;
     background-color: #fbcdfb;
-    color: white;
-    font-size: 40px;
-    font-family: Verdana;
-    text-align: center;
     float: left;
 }
 
@@ -68,9 +61,6 @@ section{
     height: 50px;
     background-color: white;
     color: black;
-    font-size: 40px;
-    font-family: verdana;
-    text-align: center;
     top: 50px;
     left: 3%;
 }
@@ -80,10 +70,6 @@ section{
     width: 95%;
     height: 300px;
     background-color: #97671d;
-    color: white;
-    font-size: 50px;
-    font-family: Verdana;
-    text-align: center;
     top: 120px;
     left: 3%;
 }
@@ -95,8 +81,7 @@ p{
     background-color: #fdeffe;
     color: black;
     font-size: 10px;
-    font-family: Verdana;
-    text-align: justify;
+    text-align: left;
     top: 440px;
     left: 3%;
 }
@@ -106,10 +91,6 @@ p{
     width: 30%;
     height: 190px;
     background-color: #666666;
-    color: white;
-    font-size: 50pxpx;
-    font-family: Verdana;
-    text-align: center;
     top: 600px;
     left: 3%;
 }
@@ -119,10 +100,6 @@ p{
     width: 30%;
     height: 190px;
     background-color: #666666;
-    color: white;
-    font-size: 50px;
-    font-family: Verdana;
-    text-align: center;
     top: 600px;
     left: 35.5%;
 }
@@ -132,10 +109,6 @@ p{
     width: 30%;
     height: 190px;
     background-color: #666666;
-    color: white;
-    font-size: 50px;
-    font-family: Verdana;
-    text-align: center;
     top: 600px;
     left: 68%;
 }
@@ -145,22 +118,13 @@ aside{
     width: 20%;
     height: 800px;
     background-color: #f930fa;
-    color: white;
-    font-size: 40px;
-    font-family: Verdana;
-    text-align: center;
     float: left;
 }
 
 footer{
     position: relative;
     width: 100%;
-    height: 100px;
+    height: 50px;
     background-color: black;
-    color: white;
-    font-size: 60px;
-    font-family: Verdana;
-    padding: 10px;
-    text-align: center;
     clear: left;
 }

@@ -1,0 +1,147 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+#conteiner{
+    position: relative;
+    width: 90%;
+    height: auto;
+    background-color: bisque;
+    margin: auto;
+}
+
+#cabecalho_pagina{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#menu{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background-color: #003665;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#meio{
+    position: relative;
+    background-color: #b5bb41;
+    width: 100%;
+    height: 530px;
+    display: flex;
+    flex-direction: row;
+}
+
+#Links{
+    position: relative;
+    width: 20%;
+    height: 530px;
+    background-color: #ffffff;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.retangulo{
+    position: relative;
+    background-color: #999;
+    width: 100%;
+    height: 46px;
+    text-align: left;
+    padding: 10px;
+}
+
+#titulo{
+    position: relative;
+    width: 60%;
+    height: 530px;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#imagem{
+    position: relative;
+    width: 95%;
+    height: 250px;
+}
+
+#imagem img{
+    width: 100%;
+    height: 250px;
+}
+
+p{
+    position: relative;
+    width: 95%;
+    height:80px;
+    background-color: #cffefe;
+    color: black;
+    font-size: 15px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+#caixa{
+    position: relative;
+    width: 95%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#caixa img{
+    width: 100%;
+    height: 130px;
+}
+
+.caixinha{
+    position: relative;
+    width: 30%;
+    height: 130px;
+}
+
+aside{
+    position: relative;
+    width: 20%;
+    height: 530px;
+}
+
+aside img{
+    width: 100%;
+    height: 530px;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
