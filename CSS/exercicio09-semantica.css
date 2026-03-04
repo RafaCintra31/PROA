@@ -1,0 +1,106 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana;
+    font-size: 10px;
+    color: black;
+    text-align: left;
+}
+
+#fundo{
+    position: relative;
+    width: 90%;
+    height: auto;
+    background-color: #ca6f72;
+    margin: auto;
+}
+
+#limao{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: #b3e939;
+}
+
+#vermelha{
+    position: relative;
+    width: 100%;
+    height: 450px;
+    background-color: #b4241c;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rosa{
+    position: relative;
+    width: 45%;
+    height: 300px;
+    background-color: #b78b8a;
+}
+
+#azul_agua{
+    position: relative;
+    width: 100%;
+    height: 450px;
+    background-color: #87e0de;
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.branco{
+    position: relative;
+    width: 20%;
+    height: 350px;
+    background-color: white;
+}
+
+p{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: #b95517;
+    margin-top: 10px;
+}
+
+#amarelo{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #fdfe40;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.azul_escuro{
+    position: relative;
+    width: 40%;
+    height: 350px;
+    background-color: #191973;
+}
+
+.verde_agua{
+    position: relative;
+    width: 40%;
+    height: 350px;
+    background-color: #3ec3c2;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    margin-top: 10px;
+}
