@@ -1,0 +1,334 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana;
+    font-size: 40px;
+    background-image: url(../Imagens/guitarra_fundo_body.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+}
+
+#fundo{
+    position: relative;
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+
+#menu_superior{
+    position: relative;
+    width: 100%;
+    height: 250px;
+}
+
+#guitarra_superior{
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    z-index: 1;
+}
+
+#guitarra_superior img{
+    width: 100%;
+    height: 250px;
+}
+
+#menu{
+    position: absolute;
+    width: 50%;
+    height: 25px;
+    font-size: 15px;
+    background-color: white;
+    top: 200px;
+    right: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    z-index: 2;
+}
+
+.links{
+    width: 50%;
+    height: 25px;
+    text-decoration: none;
+    transition: all 2s;
+    color: brown;
+    padding: 2px;
+
+}
+
+.links:hover{
+    background-color: black;
+    color: white;
+    
+}
+
+#sobre_a_loja{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: red;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#texto{
+    position: relative;
+    width: 45%;
+    height: 380px;
+    background-color: #b78b8a;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#texto_loja{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    font-size: 30px;
+}
+
+#p_loja{
+    position: relative;
+    width: 90%;
+    height: 200px;
+    font-size: 18px;
+    
+}
+
+#img{
+    position: relative;
+    width: 45%;
+    height: 380px;
+}
+
+#img img{
+    width: 100%;
+    height: 380px;
+}
+
+#guitarra{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #ffffff;
+    color: black;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.qua_guitarra{
+    position: relative;
+    width: 20%;
+    height: 380px;
+}
+.qua_guitarra img{
+    width: 100%;
+    height: 200px;
+}
+
+#informacao{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#texto_info{
+    position: relative;
+    width: 90%;
+    height: 50px;
+    font-size: 20px;
+
+}
+
+
+#valor{
+    position: relative;
+    width: 90%;
+    height: 20px;
+    font-size: 25px;
+    color: red;
+    margin-top: 80px;
+}
+
+#endereco{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #E65729;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#mapa{
+    position: relative;
+    width: 45%;
+    height: 380px;
+}
+
+#mapa iframe{
+    width: 100%;
+    height: 380px;
+}
+
+#localizacao{
+    position: relative;
+    width: 45%;
+    height: 380px;
+    background-color: #b78b8a;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#texto_endereco{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    font-size: 30px;
+}
+
+#p_endereco{
+    position: relative;
+    width: 90%;
+    height: 200px;
+    font-size: 18px;
+}
+
+#contato{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#formulario{
+    position: relative;
+    width: 45%;
+    height: 380px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+label{
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input{
+    position: relative;
+    font-size: 10px;
+    width: 50%;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 5px;
+    top: 100px;
+    left: 5px;
+}
+
+#contato_redes{
+    position: relative;
+    width: 45%;
+    height: 380px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#sociais{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    color: black;
+}
+
+#redes_sociais{
+    position: relative;
+    width: 50%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#redes_sociais img{
+    width: 100%;
+    height: 70px;
+}
+
+#rodape{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#rodape_loja{
+    position: relative;
+    width: 30%;
+    height: 15px;
+    font-size: 15px;
+}
+
+#rodape_endereco{
+    position: relative;
+    width: 30%;
+    height: 20px;
+    font-size: 15px;
+}
+
+#redes_sociais{
+    position: relative;
+    width: 10%;
+    height: 40px;
+}
+
+#redes_sociais img{
+    width: 100%;
+    height: 40px;
+}
+
