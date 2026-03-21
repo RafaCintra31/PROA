@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 05</title>
+</head>
+<body>
+    
+    <!--Crie um algoritmo que leia o valor do sálario mínimo e o valor do salário de um usuário, calcule a quantidade de salários mínimos esse usuário ganha e imprima o resultado. (15M = R$788,00)-->
+
+    <h1>Exercicio 05</h1>
+
+    <script>
+        let salarioMin = 1621
+        let salarioMinUsuario = parseFloat(prompt("Digite o seu salário"))
+
+        let quatSalarioMin = Math.round((salarioMinUsuario / salarioMin)*10) / 10
+
+        document.write(`<br> O salário mínimo de 2026 é de: R$ ${salarioMin} reais`)
+        document.write(`<br> O salário do usuário é de: R$ ${salarioMinUsuario} reais`)
+        document.write(`<br> O usuário ganha ${quatSalarioMin} salários mínimos`)
+    </script>
+</html>
