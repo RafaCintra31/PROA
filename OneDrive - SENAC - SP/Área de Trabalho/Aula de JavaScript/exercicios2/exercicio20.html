@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 20</title>
+</head>
+<body>
+    <!--A Loja Mamão com Açúcar está vendendo seus produtos em 5 (cinco) prestações sem juros. Faça um programa que receba um valor de uma compra e mostre o valor das prestações.-->
+    <h1>Exercicio 20</h1>
+
+    <script>
+       let valorCompra = parseFloat(prompt("Digite o valor da sua compra"))
+       document.write(`O valor da sua compra é: RS ${valorCompra}`)
+       let valorPrestacao = valorCompra / 5
+       
+       for(let i = 1; i <= 5; i++){
+        document.write(`<br> O valor da prestação ${i} é: R$ ${valorPrestacao} `)
+       }
+    </script>
+</body>
+</html>

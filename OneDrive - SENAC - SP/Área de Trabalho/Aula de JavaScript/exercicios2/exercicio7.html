@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 07</title>
+</head>
+<body>
+    <!--Escrever um programa que leia: 
+- a porcentagem do IPI a ser acrescido no valor das peças  
+- o código da peça 1, valor unitário da peça 1, quantidade de peças 1  
+- o código da peça 2, valor unitário da peça 2, quantidade de peças 2  
+O programa deve calcular o valor total a ser pago e apresentar o resultado.  
+Cálculo : (valor1*quant1 + valor2*quant2)*(IPI/100 + 1)-->
+    <h1>Exercicio 07</h1>
+
+    <script>
+        let ipi = 18.5
+
+        let codigoPeca1 = 2563
+        let valorPeca1 = 50
+        let quantPeca1 = 10
+
+        let codigoPeca2 = 3654
+        let valorPeca2 = 40
+        let quantPeca2 = 20
+
+        let calculoPeça1 = valorPeca1*quantPeca1
+        let calculoPeça2 = valorPeca2*quantPeca2
+        let calculoTotal = calculoPeça1 + calculoPeça2
+        let calculoTotaLIpi = calculoTotal * (ipi/100 + 1) 
+
+        document.write("O código da peça 1 é: " + codigoPeca1 + "O valor total a ser pago nas peças 1 é: " + calculoPeça1)
+        document.write("<br> O código da peça 2 é: " + codigoPeca2 + "O valor total a ser pago nas peças 2 é: " + calculoPeça2)
+        document.write("<br> O valor total a ser pago nas peças 1 e 2 são: " + calculoTotal)
+        document.write("<br> O valor total a ser pago nas peças 1 e 2 com a porcentagem IPI são: " + calculoTotaLIpi)
+    </script>
+</body>
+</html>

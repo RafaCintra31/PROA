@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 14</title>
+</head>
+<body>
+    <!--Escreva um programa que leia a idade de 20 pessoas e exiba a soma das idades.-->
+    <h1>Exercicio 14</h1>
+
+    <script>
+        
+        let soma = 0
+
+        for(let i = 1; i <= 20; i++){
+            let idadeUsuario = parseFloat(prompt("Digite sua idade"))
+            soma = soma + idadeUsuario
+        }
+
+        document.write(`A soma das 20 idades são ${soma} anos`)
+        
+    </script>
+</body>
+</html>

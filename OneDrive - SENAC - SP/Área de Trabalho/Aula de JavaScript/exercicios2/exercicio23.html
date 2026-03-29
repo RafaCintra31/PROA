@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 23</title>
+</head>
+<body>
+    <!--Escreva um programa que leia uma sequência de números do usuário e realize a soma desses números. Encerre a execução quando um número negativo for digitado.-->
+    <h1>Exercicio 23</h1>
+
+    <script>
+       let soma = 0
+
+       while(true){
+        let numero = parseFloat(prompt("Digite um número"))
+        if(numero < 0){
+            break
+        }
+
+        if(numero > 0){
+            soma = soma + numero
+        }else{
+            document.write("Isso não é um número")
+        }
+       }
+
+       document.write(`A soma dos números positivos são: ${soma}`)
+    </script>
+</body>
+</html>

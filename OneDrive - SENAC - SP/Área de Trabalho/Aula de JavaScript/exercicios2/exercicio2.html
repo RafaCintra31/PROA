@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 02</title>
+</head>
+<body>
+    <!--A CEF concederá um crédito especial com juros de 2% aos seus clientes de acordo com o saldo médio no último ano. Fazer um programa em javascript que leia o saldo médio de um cliente e calcule o valor do crédito de acordo com a tabela a seguir. Imprimir uma mensagem informando o saldo médio e o valor de crédito. -->
+    <h1>Exercicio 02</h1>
+
+    <script>
+        let saldoMedio = parseFloat(prompt("Digite o seu Saldo Médio"))
+        document.write(` Este é o seu saldo sem credito: R$ ${saldoMedio}`)
+
+        if(saldoMedio >= 0 && saldoMedio <= 500 ){
+            document.write("Não tem credito a ser inserido")
+        }else if(saldoMedio >= 501 && saldoMedio <= 1000){
+            document.write("<br> R$ " + saldoMedio * 0.30 + " Este é o seu credito com o acrescimo de 30%")
+        }else if(saldoMedio >= 1001 && saldoMedio <= 3000){
+            document.write("<br> R$ " + saldoMedio * 0.40 + " Este é o seu credito com o acrescimo de 40%")
+        }else{
+            document.write("<br> R$" + saldoMedio * 0.50 + " Este é o seu credito com o acrescimo de 50%")
+        }
+    
+    </script>
+</body>
+</html>

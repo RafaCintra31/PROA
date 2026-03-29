@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comandos Condicionais usando Javascript</title>
+</head>
+<body>
+    
+    <h1>Testando Comandos Switch/Case 2 </h1>
+
+    <script>
+        let diaSemana = parseInt(prompt("Entre com o nr do dia da semana"))
+        let nomeDia;
+
+        switch(diaSemana){
+            case 1: nomeDia = "Domingo"
+            break;
+            case 2: nomeDia = "Segunda-Feira"
+            break;
+            case 3: nomeDia = "Terça-Feira"
+            break;
+            case 4: nomeDia = "Quarta-Feira"
+            break;
+            case 5: nomeDia = "Quinta-Feira"
+            break;
+            case 6: nomeDia = "Sexta-Feira"
+            break;
+            case 7: nomeDia = "Sábado"
+            break;
+            default: nomeDia = "Dia inexistente"
+            
+        }
+
+        document.write(nomeDia)
+
+    </script>
+</body>
+</html>
