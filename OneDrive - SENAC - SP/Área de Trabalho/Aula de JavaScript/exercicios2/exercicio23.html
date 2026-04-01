@@ -14,18 +14,21 @@
 
        while(true){
         let numero = parseFloat(prompt("Digite um número"))
+        if(numero >= 0){
+            document.write(`Os números positivos são ${numero} <br>`)
+        }else{
+            document.write(`A imperrupição do número: ${numero} <br>`)
+        }
+        
         if(numero < 0){
             break
         }
 
-        if(numero > 0){
-            soma = soma + numero
-        }else{
-            document.write("Isso não é um número")
-        }
+         soma = soma + numero
        }
 
        document.write(`A soma dos números positivos são: ${soma}`)
+
     </script>
 </body>
 </html>

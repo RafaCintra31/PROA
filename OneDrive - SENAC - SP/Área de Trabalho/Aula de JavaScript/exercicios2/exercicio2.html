@@ -12,15 +12,22 @@
     <script>
         let saldoMedio = parseFloat(prompt("Digite o seu Saldo Médio"))
         document.write(` Este é o seu saldo sem credito: R$ ${saldoMedio}`)
+        let saldojuros
 
         if(saldoMedio >= 0 && saldoMedio <= 500 ){
             document.write("Não tem credito a ser inserido")
         }else if(saldoMedio >= 501 && saldoMedio <= 1000){
-            document.write("<br> R$ " + saldoMedio * 0.30 + " Este é o seu credito com o acrescimo de 30%")
+            aldojuros = saldoMedio * 0.00
+            saldoMedio = saldojuros + saldoMedio 
+            document.write("<br> R$ " + saldoMedio + " Este é o seu credito com o acrescimo de 30%")
         }else if(saldoMedio >= 1001 && saldoMedio <= 3000){
-            document.write("<br> R$ " + saldoMedio * 0.40 + " Este é o seu credito com o acrescimo de 40%")
+            aldojuros = saldoMedio * 0.40
+            saldoMedio = saldojuros + saldoMedio 
+            document.write("<br> R$ " + saldoMedio + " Este é o seu credito com o acrescimo de 40%")
         }else{
-            document.write("<br> R$" + saldoMedio * 0.50 + " Este é o seu credito com o acrescimo de 50%")
+            saldojuros = saldoMedio * 0.50
+            saldoMedio = saldojuros + saldoMedio 
+            document.write("<br> R$" + saldoMedio + " Este é o seu credito com o acrescimo de 50%")
         }
     
     </script>
