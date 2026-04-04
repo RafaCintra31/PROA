@@ -8,10 +8,26 @@
 <body>
     <!-- Escreva um programa em que o usuário informe 10 valores e escreva quantos desses valores lidos estão entre os números 24 e 42 (incluindo os valores 24 e 42) e quantos deles estão fora deste intervalo.-->    
     
+    
     <h1>Exerciico 11</h1>
 
     <script>
-        
+        let dentro = 0
+        let fora = 0
+
+        for(let i = 1; i <=10; i++){
+            let valor = parseFloat(prompt(`Digite o ${i}º valor:`))
+
+            if(valor >= 24 && valor <=42){
+                dentro++
+            }else{
+                fora++
+            }
+        }
+
+        document.write(`Valores entre 24 a 42: ${dentro} <br>`)
+        document.write(`Valorres fora do intervalo: ${fora} <br>`)
+
     </script>
 </body>
 </html>
