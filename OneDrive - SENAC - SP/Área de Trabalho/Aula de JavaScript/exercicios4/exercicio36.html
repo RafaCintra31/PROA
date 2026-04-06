@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 36</title>
+</head>
+<body>
+    <!--36) Crie um programa que leia um número inteiro positivo e exiba todos os divisores desse número.-->
+
+    <h1>Exercicio 36</h1>
+
+    <script>
+        let numero = parseInt(prompt("Digite um número inteiro positivo:"));
+        
+        for(let divisor = 1; divisor <= numero; divisor++) {
+            if (numero % divisor == 0) {
+            document.write(`${divisor} <br>`)
+            }
+        }
+
+       
+    </script>
+</body>
+</html>
