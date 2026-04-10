@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 11</title>
+</head>
+<body>
+    <!--11) Escreva um programa que leia um número inteiro e exiba a soma de todos os números pares entre 1 e o número lido usando o loop "while".-->
+
+    <h1>Exercicio 11</h1>
+
+    <script>
+        let numUsuario = parseFloat(prompt(`Digite 1 número inteiro`))
+        let n = 1
+        let soma = 0
+
+        while(n <= numUsuario){
+            if(n % 2 == 0){
+                document.write(`${n} <br>`)
+                soma = soma + n
+            }
+            n++
+        }
+
+        document.write(`A soma dos números pares são ${soma}`)
+       
+    </script>
+</body>
+</html>

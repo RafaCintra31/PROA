@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 01</title>
+</head>
+<body>
+    
+    <!--Faça um algoritimo que leia a idade de uma pessoa expressa em anos, messes e dias e mostre-a expressa em dias. Leve em cosideração o ano com 365 dias e o mês com 30. (Ex 3 anos, 2 meses e 15 dias = 1170 dias)-->
+
+    <h1>Exercicio 01</h1>
+
+    <script>
+        let data = 31
+        let mes = 8
+        let ano = 20
+
+        let multMes = mes * 30
+        let multAno = ano * 365
+        let somaTotal = data + multMes + multAno
+
+        document.write(`A pessoa tem: ${ano} anos`)
+        document.write(`<br> A pessoa tem: ${mes} meses`)
+        document.write(`<br> A pessoa tem: ${data} dias`)
+        document.write(`<br> No total a pessoa tem: ${somaTotal} dias`)
+    </script>
+
+</body>
+</html>

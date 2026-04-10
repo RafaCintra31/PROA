@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 28</title>
+</head>
+<body>
+    <!--28) Faça um programa que leia um número inteiro e exiba os seus dígitos separadamente usando o loop "do-while".-->
+
+    <h1>Exercicio 28</h1>
+
+    <script>
+        let num = parseFloat(prompt("Digite um número com mais de 2 casas decimais"))
+
+        do{
+            let digito = num % 10
+            document.write(`${digito} <br>`)
+            num = Math.floor(num/10)
+        }while(num > 0)
+       
+    </script>
+</body>
+</html>

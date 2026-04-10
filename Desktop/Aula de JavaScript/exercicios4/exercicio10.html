@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 10</title>
+</head>
+<body>
+    <!--10) Faça um programa que exiba os primeiros 20 números da sequência de Fibonacci usando o loop "while".-->
+
+    <h1>Exercicio 10</h1>
+
+    <script>
+        let num1 = parseFloat(prompt(`Digite 1 número inteiro`))
+        let num2 = num1
+        let soma = 0
+
+        while(soma < 20){
+            document.write(`${num1} <br>`)
+            
+            let proximoNum = num1 + num2
+            num1 = num2
+            num2 = proximoNum
+
+            soma++
+        }
+       
+    </script>
+</body>
+</html>

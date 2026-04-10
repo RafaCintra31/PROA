@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 20</title>
+</head>
+<body>
+    <!--20) Escreva um programa que leia um número inteiro e exiba a tabuada desse número até o décimo valor usando o loop "do-while".-->
+
+    <h1>Exercicio 20</h1>
+
+    <script>
+        let numInteiro = parseFloat(prompt(`Digite 1 número inteiro`))
+        let num = 1
+        let multiplicar = 0
+
+        do{
+            multiplicar = numInteiro * num
+            document.write(`${num} x ${numInteiro} = ${multiplicar} <br>`)
+            num++
+        }while(num <= 10)
+
+       
+    </script>
+</body>
+</html>

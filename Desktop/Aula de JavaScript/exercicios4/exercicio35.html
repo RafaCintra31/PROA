@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 35</title>
+</head>
+<body>
+    <!--35) Escreva um programa que leia um número inteiro e exiba a tabuada desse número até o décimo valor.-->
+
+    <h1>Exercicio 35</h1>
+
+    <script>
+        let numInteiro = parseFloat(prompt(`Digite 1 número inteiro`))
+        let multiplicar = 0
+
+        for(let num = 1; num <= 10; num++){
+            multiplicar = numInteiro * num
+            document.write(`${num} x ${numInteiro} = ${multiplicar} <br>`)
+        }
+
+       
+    </script>
+</body>
+</html>

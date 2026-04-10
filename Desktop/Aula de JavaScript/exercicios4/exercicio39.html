@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 39</title>
+</head>
+<body>
+    <!--39) Crie um programa que leia o nome e a idade de 5 pessoas e exiba a média das idades.-->
+
+    <h1>Exercicio 39</h1>
+
+    <script>
+        let soma = 0
+
+        for(let n = 1; n <= 5; n++){
+            let numIdade = parseFloat(prompt(`Digite a ${n} idade`))
+            document.write(`a idade é: ${numIdade} <br>`)
+            soma = soma + numIdade
+        }
+
+        let media = soma / 5
+        document.write(`A média das idades são: ${media}`)
+
+       
+    </script>
+</body>
+</html>
