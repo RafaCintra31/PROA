@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comandos Condicionais usando Javascript</title>
+</head>
+<body>
+    
+    <h1>Testando Comandos Switch/Case Desafio </h1>
+
+    <script>
+        let nrCombo = parseInt(prompt("Entre com o nr do combo do seu pedido"))
+        let nomeCombo;
+        let desCombo;
+        let valorCombo;
+
+        switch(nrCombo){
+            case 1: nomeCombo = "Big Mac"; desCombo = "Dois Hambures (100% carne bonina), alface americana, queijo cheddar, maionese Big Mac, cebola, picles, pão com gergelim. <br> Bebida: Coca-cola 400ml. <br> Acompanhamento McFritas Média"; valorCombo = "R$36,90 reais"
+            break;
+            case 2: nomeCombo = "Cheddar MacMelt"; desCombo = "Um Hambures (100% carne bonina), molho lácteo com queijo tipo cheddar, celoba ao molho shoyu e pão escuro com gergelim. <br> Bebida: Coca-cola zero 400ml. <br> Acompanhamento McFritas pequeno"; valorCombo = "R$ 38,90 reais"
+            break;
+            case 3: nomeCombo = "Quarterão"; desCombo = "Um Hambures (100% carne bonina), queijo cheddar, picles, cebola, ketchup, mostarda e pão com gergelim. <br> Bebida: Coca-cola zero 400ml. <br> Acompanhamento McFritas grande"; valorCombo = "R$ 37,90 reais"
+            break;
+            case 4: nomeCombo = "Mc Chicken"; desCombo = "Frango empanado, maionese, alface americana e pão com gergelim. <br> Bebida: Coca-cola zero 400ml. <br> Acompanhamento McFritas cheddar e bacon"; valorCombo = " R$ 38,90 reais"
+            break;
+            case 5: nomeCombo = "Cheeseburguer"; desCombo = "Um Hambures (100% carne bonina), queijo sabor cheddar, cebola, picles, ketchuo, mostarda e pão sem gergelim. <br> Bebida: Coca-cola zero 400ml. <br> Acompanhamento Mc Nuggets 10 unidades"; valorCombo = " R$ 33,90 reais"
+            break;
+            default: nomeCombo = "Não existente"; desCombo = "Não existente"; valorCombo = "Não existente"
+            
+        }
+
+        document.write(`Nome do Combo: ${nomeCombo}; <br> Descrição: ${desCombo};<br> Valor: ${valorCombo}`)
+
+        
+
+    </script>
+</body>
+</html>

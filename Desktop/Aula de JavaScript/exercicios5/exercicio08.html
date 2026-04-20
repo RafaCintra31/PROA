@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 08</title>
+</head>
+<body>
+    <!--08) Escreva um programa que leia 5 números inteiros e calcule a média dos valores pares e a média dos valores ímpares.-->
+
+    <h1>Exercicio 08</h1>
+    
+    <script>
+        let listanum = []
+        let quatPar = 0
+        let quatImpar = 0
+        let somaPar = 0
+        let somaImpar = 0
+
+        for(let i = 1; i <= 5; i++){
+            let num = parseFloat(prompt(`Digite o ${i} número`))
+            listanum.push(num)
+        }
+
+        document.write(listanum + "<br>")
+
+        for(let i = 0; i <= listanum.length; i++){
+            if(listanum[i] % 2 === 0){
+                somaPar = somaPar + listanum[i]
+                quatPar = quatPar + 1
+            }
+            if(listanum[i] % 2 === 1){
+                somaImpar = somaImpar + listanum[i]
+                quatImpar = quatImpar + 1
+            }
+        }
+
+        let mediaPar = somaPar / quatPar
+        let mediaImpar = somaImpar / quatImpar
+
+        document.write(`A soma dos números Pares são: ${somaPar} <br>`)
+        document.write(`A média dos números Pares são: ${mediaPar} <br>`)
+        document.write(`A soma dos números Impares são: ${somaImpar} <br>`)
+        document.write(`A média dos números Impares são: ${mediaImpar} <br>`)
+
+
+    </script>
+</body>
+</html>

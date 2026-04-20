@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 01</title>
+</head>
+<body>
+    <!--01) Faça um programa que leia 5 números inteiros e exiba-os na ordem inversa em que foram digitados.-->
+
+    <h1>Exercicio 01</h1>
+    <script>
+        let listanum = []
+
+        for(let i = 1; i <= 5; i++){
+            let num = parseFloat(prompt(`Digite o ${i} número`))
+            listanum.push(num)
+        }
+
+        document.write(listanum + "<br>")
+        document.write("Percorrendo a lista de trás para frente <br>")
+        let listanumcont = []
+
+        for(let i = listanum.length - 1; i >= 0; i--){
+            document.write(listanum[i]+ "<br>")
+        }
+        
+    </script>
+</body>
+</html>
+

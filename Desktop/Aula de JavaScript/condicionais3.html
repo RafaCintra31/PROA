@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comandos Condicionais usando Javascript</title>
+</head>
+<body>
+    
+    <h1>Testando Comandos if - else if - else (exercicio IMC)</h1>
+
+    <script>
+        let peso = parseFloat(prompt("Digite o seu peso"))
+        document.write("Seu peso é: " + peso)
+        let altura = parseFloat(prompt("Digite a sua altura"))
+        document.write("<br> Sua altura é: " + altura)
+
+        let calculoimc = peso / (altura * altura)
+        document.write("<br> Seu IMC é: " + calculoimc.toFixed(1))
+
+        
+        if(calculoimc < 18.5){
+            document.write("<br> Você está abaixo do peso")
+        }else if(calculoimc >= 18.5 && calculoimc <= 24.9){
+            document.write("<br>Você está com o peso normal")
+        }else if(calculoimc >= 25 && calculoimc <= 29.9){
+            document.write("<br>Você está com sobrepeso")
+        }else if(calculoimc >= 30 && calculoimc >= 34.9){
+            document.write("<br>Você está com obesidade grau I")
+        }else if(calculoimc >= 35 && calculoimc >= 39.9){
+            document.write("<br>Você está com obesidade grau II")
+        }else if(calculoimc >= 40){
+            document.write("<br>Você está com obesidade grau III ou mórbida")
+        }else{
+            document.write("Valores inválodos! Peso ou Altura inválido")
+        }
+    </script>
+</body>
+</html>

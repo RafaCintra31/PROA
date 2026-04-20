@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 19</title>
+</head>
+<body>
+    <!--19) Faça um programa que leia duas matrizes 2x2 de números inteiros e exiba a soma das duas matrizes.-->
+
+    <h1>Exercicio 19</h1>
+
+    <script>
+        let matriz = [
+            [1,2],
+            [4,5],
+        ]
+        document.write("Matriz 1: <br>")
+
+        for(let i = 0; i < 2; i++){
+            let linha = ""
+            for(let j = 0; j < 2; j++){
+                linha = linha + matriz[i][j] + ""
+            }
+            document.write(`${linha} <br>`)
+        }
+
+        let soma = 0
+        
+        for(let i = 0; i < 2; i++){
+            for(let j = 0; j < 2; j++){
+                soma = soma + matriz[i][j]
+            }
+        }
+
+        document.write(`A soma da matris será: ${soma} <br>`)
+
+
+
+        let matriz2 = [
+            [6,7],
+            [8,9],
+        ]
+        document.write("Matriz 2: <br>")
+
+        for(let i = 0; i < 2; i++){
+            let linha = ""
+            for(let j = 0; j < 2; j++){
+                linha = linha + matriz2[i][j] + ""
+            }
+            document.write(`${linha} <br>`)
+        }
+
+        let soma2 = 0
+        
+        for(let i = 0; i < 2; i++){
+            for(let j = 0; j < 2; j++){
+                soma2 = soma2 + matriz2[i][j]
+            }
+        }
+
+        document.write(`A soma da matris será: ${soma2}`)
+
+
+    </script>
+</body>
+</html>

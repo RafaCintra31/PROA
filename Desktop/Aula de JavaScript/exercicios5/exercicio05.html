@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 05</title>
+</head>
+<body>
+    <!--05) Escreva um programa que leia 5 números inteiros e exiba o maior e o menor valor digitado.-->
+
+    <h1>Exercicio 05</h1>
+
+    <script>
+        let listanum = []
+
+        for(let i = 1; i <= 5; i++){
+            let num = parseFloat(prompt(`Digite o ${i} número`))
+            listanum.push(num)
+        }
+
+        document.write(listanum + "<br>")
+
+        document.write("O maior número é: " + Math.max(...listanum) + "<br>")
+        document.write("O menor número é: " + Math.min(...listanum))
+    </script>
+    
+</body>
+</html>

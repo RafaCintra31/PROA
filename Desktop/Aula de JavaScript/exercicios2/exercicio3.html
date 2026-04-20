@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 03</title>
+</head>
+<body>
+    <!--Dados três valores A, B e C, construa um programa em Javascript, que mostre na tela os valores de forma descendente (do maior para o menor). -->
+    <h1>Exercicio 03</h1>
+
+    <script>
+        let numA = parseFloat(prompt("Digite um nímero para A"))
+        let numB = parseFloat(prompt("Digite um nímero para B"))
+        let numC = parseFloat(prompt("Digite um nímero para C"))
+
+        if(numA >= numB && numA >=numC){
+            if(numB >= numC){
+                document.write(`A seguencia é: ${numA}, ${numB}, ${numC}`)
+            }else{
+                document.write(`A sequencia é: ${numA}, ${numC}, ${numB}`)
+            }
+        }else if(numB >= numA && numB >= numC){
+            if(numC >= numA){
+                document.write(`A seguencia é: ${numB}, ${numA}, ${numC}`)
+            }else{
+                document.write(`A seguencia é: ${numB}, ${numC}, ${numA}`)
+            }
+        }else{
+            if(numC >= numA){
+                document.write(`A seguencia é: ${numC}, ${numA}, ${numB}`)
+            }else{
+                document.write(`A seguencia é: ${numC}, ${numB}, ${numA}`)
+            }
+        }
+    </script>
+</body>
+</html>

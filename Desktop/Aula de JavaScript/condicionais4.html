@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comandos Condicionais usando Javascript</title>
+</head>
+<body>
+    
+    <h1>Testando Comandos Switch/Case</h1>
+
+    <script>
+        let semafaro = prompt("Digite a cor do semafaro")
+
+        switch(semafaro.toLocaleLowerCase()){
+            case "vermelho": alert("Pare!")
+            break;
+            case "amarelo": alert("Atenção!")
+            break;
+            case "verde": alert("Prossiga")
+            break;
+            default: alert("Cor inexistente!")
+        }
+    </script>
+</body>
+</html>
