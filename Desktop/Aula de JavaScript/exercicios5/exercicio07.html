@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 07</title>
+</head>
+<body>
+    <!--07) Faça um programa que leia 10 números inteiros e exiba quantos deles são positivos.-->
+
+    <h1>Exercicio 07</h1>
+
+    <script>
+        let listanum = []
+        let soma = 0
+
+        for(let i = 1; i <= 10; i++){
+            let num = parseFloat(prompt(`Digite o ${i} número`))
+            listanum.push(num)
+        }
+
+        document.write(`Lista: ${listanum} <br>`)
+
+        for(let i = 0; i <= listanum.length; i++){
+            if(listanum[i] >= 0){
+            soma = soma + 1
+            }
+        }
+        
+        document.write(`${soma} são positivos`)
+    </script>
+    
+</body>
+</html>

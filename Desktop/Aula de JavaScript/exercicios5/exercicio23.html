@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 23</title>
+</head>
+<body>
+    <!--23) Escreva um programa que leia uma matriz 3x3 de números inteiros e exiba o menor valor presente na matriz.-->
+
+    <h1>Exercicio 23</h1>
+
+    <script>
+        let matriz = [
+            [1,2,3],
+            [4,5,6],
+            [7,8,9],
+        ]
+
+        for(let i = 0; i < 3; i++){
+            let linha = "";
+            for(let j = 0; j < 3; j++){
+                linha = linha + matriz[i][j] + "";
+            }
+            document.write(`${linha} <br>`)
+        }
+
+        document.write(`O maior número da lista é: ${Math.min(...matriz.flat())}`)
+    </script>
+</body>
+</html>

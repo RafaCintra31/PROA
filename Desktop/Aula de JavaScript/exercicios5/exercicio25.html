@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 25</title>
+</head>
+<body>
+    <!--25) Faça um programa que leia uma matriz 4x4 de números inteiros e exiba a soma dos elementos de cada coluna.-->
+
+    <h1>Exercicio 25</h1>
+
+    <script>
+        let matriz = [
+            [1,  2,  3,  4],
+            [5,  6,  7,  8],
+            [9,  10, 11, 12],
+            [13, 14, 15, 16]
+        ]
+
+        for (let j = 0; j < 4; j++) {
+            let soma = 0;
+            for (let i = 0; i < 4; i++) {
+            soma = soma + matriz[i][j]
+            }
+            document.write(`Soma da coluda ${j + 1}: ${soma} <br>`)
+        }
+
+    </script>
+</body>
+</html>
