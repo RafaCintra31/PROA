@@ -1,0 +1,40 @@
+footer{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.h2_rodape{
+    position: relative;
+    width: 30%;
+    height: 15px;
+    font-size: 15px;
+}
+
+.endereco_rodape{
+    position: relative;
+    width: 30%;
+    height: 20px;
+    font-size: 15px;
+}
+
+.rodape_redes{
+    position: relative;
+    width: 10%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.rodape_redes a img{
+    width: 100%;
+    height: 40px;
+}

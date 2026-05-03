@@ -1,0 +1,50 @@
+.vendas{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #ffffff;
+    color: black;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.vendas .div_vendas{
+    position: relative;
+    width: 20%;
+    height: 380px;
+}
+
+.vendas .div_vendas img {
+    width: 100%;
+    height: 200px;
+}
+
+.vendas .nav_venda{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.info{
+    position: relative;
+    width: 90%;
+    height: 50px;
+    font-size: 20px;
+}
+
+.valor{
+    position: relative;
+    width: 90%;
+    height: 20px;
+    font-size: 25px;
+    color: red;
+    margin-top: 80px;
+}

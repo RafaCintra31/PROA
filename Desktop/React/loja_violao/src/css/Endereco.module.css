@@ -1,0 +1,47 @@
+.endereco{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #E65729;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.mapa{
+    position: relative;
+    width: 45%;
+    height: 380px;
+}
+
+.mapa iframe{
+    width: 100%;
+    height: 380px;
+}
+
+.localizacao{
+    position: relative;
+    width: 45%;
+    height: 380px;
+    background-color: #b78b8a;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.localizacao .h1_loc{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    font-size: 30px;
+}
+
+.localizacao .p_loc{
+    position: relative;
+    width: 90%;
+    height: 200px;
+    font-size: 18px;
+}
