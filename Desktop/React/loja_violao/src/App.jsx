@@ -1,3 +1,4 @@
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Contato from './componentes/Contato'
 import Endereco from './componentes/Endereco'
 import Footer from './componentes/Footer'
@@ -10,12 +11,16 @@ function App() {
 
   return (
     <main>
-      <Header/>
-      <Sobre_loja/>
-      <Venda/>
-      <Endereco/>
-      <Contato/>
-      <Footer/>
+      <Router>
+        <Header/>
+        <Routes>
+          <Route path='/Sobre_loja' element={<Sobre_loja/>} />
+          <Route path='/Venda' element={<Venda/>} />
+          <Route path='/Endereco' element={<Endereco/>} />
+          <Route path='/Contato' element={<Contato/>} />
+        </Routes>
+        <Footer/>
+      </Router>
     </main>
   )
 }

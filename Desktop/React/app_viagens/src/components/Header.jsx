@@ -3,6 +3,7 @@ import Style from "../css/Header.module.css";
 import Logo from "../assets/imagens/viagens.jpg";
 import Lupa from "../assets/imagens/lupa.png";
 
+
 function Header() {
   return (
     <header>
